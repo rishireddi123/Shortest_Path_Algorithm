@@ -1,0 +1,106 @@
+city1,state1,city2,state2,distance
+Montgomery, AL, Tallahassee, FL, 179.14
+Montgomery, AL, Atlanta, GA, 145.75
+Montgomery, AL, Nashville, TN, 262.56
+Montgomery, AL, Jackson, MS, 227.10
+Phoenix, AZ, Santa Fe, NM, 383.29
+Phoenix, AZ, Salt Lake City, UT, 505.56
+Phoenix, AZ, Carson City, NV, 581.38
+Phoenix, AZ, Sacramento, CA, 633.56
+Little Rock, AR, Baton Rouge, LA, 302.48
+Little Rock, AR, Jackson, MS, 207.67
+Little Rock, AR, Nashville, TN, 325.50
+Little Rock, AR, Jefferson City, MO, 264.35
+Little Rock, AR, Oklahoma City, OK, 299.75
+Little Rock, AR, Austin, TX, 442.87
+Sacramento, CA, Carson City, NV, 101.58
+Sacramento, CA, Salem, OR, 446.16
+Denver, CO, Santa Fe, NM, 284.64
+Denver, CO, Oklahoma City, OK, 503.93
+Denver, CO, Topeka, KS, 500.22
+Denver, CO, Lincoln, NE, 443.85
+Denver, CO, Cheyenne, WY, 97.06
+Denver, CO, Salt Lake City, UT, 371.78
+Hartford, CT, Providence, RI, 65.61
+Hartford, CT, Boston, MA, 92.79
+Hartford, CT, Albany, NY, 82.52
+Dover, DE, Trenton, NJ, 83.54
+Dover, DE, Harrisburg, PA, 105.42
+Dover, DE, Annapolis, MD, 53.66
+Tallahassee, FL, Atlanta, GA, 228.22
+Atlanta, GA, Columbia, SC, 193.65
+Atlanta, GA, Raleigh, NC, 355.68
+Atlanta, GA, Nashville, TN, 215.03
+Boise, ID, Olympia, WA, 402.76
+Boise, ID, Salem, OR, 350.77
+Boise, ID, Carson City, NV, 358.83
+Boise, ID, Salt Lake City, UT, 295.54
+Boise, ID, Cheyenne, WY, 606.36
+Boise, ID, Helena, MT, 289.44
+Springfield, IL, Madison, WI, 226.54
+Springfield, IL, Des Moines, IA, 241.44
+Springfield, IL, Jefferson City, MO, 159.19
+Springfield, IL, Frankfort, KY, 280.24
+Springfield, IL, Indianapolis, IN, 185.89
+Indianapolis, IN, Frankfort, KY, 129.27
+Indianapolis, IN, Columbus, OH, 168.71
+Indianapolis, IN, Lansing, MI, 221.06
+Des Moines, IA, Saint Paul, MN, 233.60
+Des Moines, IA, Pierre, SD, 391.62
+Des Moines, IA, Lincoln, NE, 170.16
+Des Moines, IA, Jefferson City, MO, 221.20
+Des Moines, IA, Madison, WI, 239.07
+Topeka, KS, Oklahoma City, OK, 265.04
+Topeka, KS, Jefferson City, MO, 191.89
+Topeka, KS, Lincoln, NE, 132.99
+Frankfort, KY, Nashville, TN, 174.68
+Frankfort, KY, Richmond, VA, 409.23
+Frankfort, KY, Charleston, WV, 177.74
+Frankfort, KY, Columbus, OH, 158.63
+Frankfort, KY, Jefferson City, MO, 397.01
+Baton Rouge, LA, Jackson, MS, 140.42
+Baton Rouge, LA, Austin, TX, 391.57
+Augusta, ME, Concord, NH, 116.16
+Annapolis, MD, Harrisburg, PA, 91.13
+Annapolis, MD, Charleston, WV, 280.48
+Annapolis, MD, Richmond, VA, 111.77
+Boston, MA, Concord, NH, 63.35
+Boston, MA, Montpelier, VT, 152.07
+Boston, MA, Albany, NY, 139.08
+Boston, MA, Providence, RI, 40.62
+Lansing, MI, Madison, WI, 246.15
+Lansing, MI, Columbus, OH, 207.72
+Saint Paul, MN, Bismarck, ND, 392.03
+Saint Paul, MN, Pierre, SD, 359.18
+Saint Paul, MN, Madison, WI, 226.17
+Jackson, MS, Nashville, TN, 329.63
+Jefferson City, MO, Nashville, TN, 340.00
+Jefferson City, MO, Lincoln, NE, 286.04
+Jefferson City, MO, Oklahoma City, OK, 363.42
+Helena, MT, Cheyenne, WY, 519.79
+Helena, MT, Pierre, SD, 586.80
+Helena, MT, Bismarck, ND, 533.68
+Lincoln, NE, Pierre, SD, 308.06
+Lincoln, NE, Cheyenne, WY, 425.17
+Carson City, NV, Salt Lake City, UT, 432.58
+Carson City, NV, Salem, OR, 432.38
+Concord, NH, Montpelier, VT, 89.63
+Trenton, NJ, Albany, NY, 175.88
+Trenton, NJ, Harrisburg, PA, 111.80
+Santa Fe, NM, Austin, TX, 604.30
+Santa Fe, NM, Oklahoma City, OK, 475.13
+Albany, NY, Harrisburg, PA, 231.27
+Albany, NY, Montpelier, VT, 125.90
+Raleigh, NC, Richmond, VA, 138.51
+Raleigh, NC, Nashville, TN, 457.13
+Raleigh, NC, Columbia, SC, 183.15
+Bismarck, ND, Pierre, SD, 170.78
+Columbus, OH, Charleston, WV, 134.59
+Columbus, OH, Harrisburg, PA, 324.57
+Oklahoma City, OK, Austin, TX, 359.81
+Salem, OR, Olympia, WA, 144.98
+Harrisburg, PA, Charleston, WV, 286.18
+Pierre, SD, Cheyenne, WY, 318.34
+Nashville, TN, Richmond, VA, 526.52
+Salt Lake City, UT, Cheyenne, WY, 370.48
+Richmond, VA, Charleston, WV, 234.76
