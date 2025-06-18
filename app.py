@@ -42,7 +42,7 @@ def load_data():
 
     with open("state_capitals_coordinates.csv", newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip the header row
+        next(reader) 
         state_info = {}
         for row in reader:
             if len(row) < 6:
@@ -73,9 +73,7 @@ def load_data():
                 lon2 = state_info[neighbor_abbr]["lon"]
                 node1 = (city1, state1)
                 node2 = (city2, state2)
-                # Only add edge if not already present
                 if node2 not in graph.graph[node1]:
-                    # Calculate haversine distance
                     from math import radians, sin, cos, sqrt, atan2
                     R = 3958.8  # miles
                     dlat = radians(lat2 - lat1)
@@ -88,7 +86,7 @@ def load_data():
     if hasattr(graph, "set_coordinates"):
         with open("state_capitals_coordinates.csv", newline='', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
-            next(reader)  # Skip the header row
+            next(reader) 
             for row in reader:
                 if len(row) < 5:
                     continue
@@ -129,13 +127,12 @@ def plot_graph(graph, shortest_path, total_distance=None):
 
     positions = {}
 
-    # Use real coordinates for plotting
     for (city, state) in sorted(graph.capitals):
         if (city, state) in graph.coordinates:
             lat, lon = graph.coordinates[(city, state)]
             x, y = lon, lat
             positions[(city, state)] = (x, y)
-            # Determine color for start/end/other
+
             if shortest_path and (city, state) == shortest_path[0]:
                 ax.plot(x, y, 'o', color='black', markersize=10)
                 ax.text(x, y + 1.2, "Start", fontsize=15, color='deeppink', ha='center', fontweight='bold')
@@ -146,7 +143,6 @@ def plot_graph(graph, shortest_path, total_distance=None):
                 ax.plot(x, y, 'ro')
             ax.text(x, y + 0.5, f"{city}, {state}", fontsize=6, ha='center', rotation=30, color='white')
 
-    # Draw all edges in red
     drawn_edges = set()
     for city1 in graph.graph:
         for city2, dist in graph.graph[city1].items():
@@ -168,13 +164,11 @@ def plot_graph(graph, shortest_path, total_distance=None):
             path_x.extend([x1, x2])
             path_y.extend([y1, y2])
 
-    # Show total distance above the path
     if total_distance is not None and path_x and path_y:
         mid_x = sum(path_x) / len(path_x)
         mid_y = sum(path_y) / len(path_y)
         ax.text(mid_x, mid_y + 1.5, f"Total Distance: {total_distance:.2f} miles", color='green', fontsize=18, ha='center', fontweight='bold')
 
-    # Set all axes, title, and tick labels to white
     ax.set_title("US State Capitals Graph - Shortest Path", fontsize=14, color='white')
     ax.set_xlabel("Longitude", color='white')
     ax.set_ylabel("Latitude", color='white')
